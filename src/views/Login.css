@@ -24,9 +24,11 @@
 }
 
 .card-login {
-  
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.308) 1px 2px 10px 0;
   width: 300px;
-  height: 300px;
+  height: 350px;
   margin: auto;
   margin-top: 100px;
   padding: 25px;
@@ -36,32 +38,17 @@
 h1.logo {
   text-align: center;
   font-size: 45px;
-  color: white;
+  padding-top: 10px;
+  color: #E55F91;
   font-family: 'Passero One', cursive;
   font-weight: normal;
 }
 
-.label-login {
-  color: white;
-  padding-bottom: 5px;
-  margin-top: 15px;
-}
-
 .input-login {
-  font-size: 16px;
-  background-color: transparent;
-  border: none;
-  border-bottom: 2px solid white;
   color: white;
-  line-height: 25px;
+  margin: 15px 0 !important;
 }
 
-.input-login:focus {
-  border: none;
-  outline: none;
-  box-shadow: none;
-  border-bottom: 2px solid #E55F91;
-}
 
 .btn-login {
   margin: 10px 0;
@@ -92,14 +79,13 @@ h1.logo {
 
 .link-login {
   font-weight: bold;
-  color: white;
+  color: #E55F91;
   text-decoration: none;
   margin-top: 8px;
 }
 
 .link-login:hover {
-  color: #E55F91;
-  text-decoration: none;
+  color: #bb3063;
 }
 
 .forgot {
