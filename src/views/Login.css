@@ -1,0 +1,119 @@
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.view-login {
+  position: relative;
+  background-image: url('../assets/images/background.svg');
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.background-color {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #7563d19a;
+}
+
+.form-login {
+  display: grid;
+}
+
+.card-login {
+  
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 25px;
+}
+
+
+h1.logo {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  font-family: 'Passero One', cursive;
+  font-weight: normal;
+}
+
+.label-login {
+  color: white;
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+
+.input-login {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  line-height: 25px;
+}
+
+.input-login:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #E55F91;
+}
+
+.btn-login {
+  margin: 10px 0;
+  height: 60px;
+  width: 300px;
+  background-color: #E55F91;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-position: center;
+  transition: background 0.8s;
+  box-shadow: 0 0 2px #999;
+  outline: none;
+}
+
+.btn-login:hover{
+  cursor: pointer;
+  background: #E55F91 radial-gradient(circle, transparent 1%, #E55F91 1%) center/15000%;
+}
+
+.btn-login:active{
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.link-login {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+.link-login:hover {
+  color: #E55F91;
+  text-decoration: none;
+}
+
+.forgot {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  text-align: end;
+}
+
+.register {
+  text-align: center;
+}
+
+.view-login::-webkit-scrollbar {
+  display: none;
+}
+
+
